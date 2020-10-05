@@ -7,7 +7,7 @@ def mark_grade():
   elif (mark_grade >=75 and mark_grade <85):
     print ("Nice work, B is a really good grade.")
   elif (mark_grade>= 65 and mark_grade<75):
-    print ("Good grade.")
+    print ("C is a good grade.")
   elif (mark_grade >= 55 and mark_grade <65):
     print ("Grade D, that's not great.")
   elif (mark_grade >=0 and mark_grade <55):
