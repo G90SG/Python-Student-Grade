@@ -1,4 +1,4 @@
-# Python_StudentGrade
+# Python Student Grade
 Write a program to ask a student for their percentage mark and convert this to a grade.
 The conversion will be done in a function called mark_grade
 Add These Functions to the program you just created
