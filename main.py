@@ -1,7 +1,7 @@
+# Create a funtion called mark_grade to hold user grade input and IF statement to advise what grade the user got. 
 def mark_grade():
-
-  mark_grade = int(input("So go on then, what % did you get in the test? "))
-
+  mark_grade = int(input("What % of 100 did you get in the test? "))
+# Create IF statement to interpret the input and present a statement advising the user of their grade
   if (mark_grade >= 85):
     print ("WOAH, you got an A?! Gold star for you!")
   elif (mark_grade >=75 and mark_grade <85):
@@ -20,12 +20,10 @@ def mark_grade():
   target_grade = int(input("And, what was your target % ? "))
 
   if target_grade < mark_grade:
-    print ("Your achieved grade is over your target grade.")
+    print ("Your achieved grade is over your target grade. Well done!")
   elif target_grade == mark_grade:
-    print ("Congratulations! You hit your target  grade!")
+    print ("Congratulations! You hit your target grade!")
   elif target_grade > mark_grade:
     print ("That's unfortunate, you didn't achieve your target grade.")
 
 mark_grade()
-
-
